@@ -1,54 +1,3176 @@
 [
   {
     "id": 1,
-    "nome": "Ana Martins",
-    "foto": "./images/perfil1.jpg",
-    "cargo": "Engenheira de Software Pleno",
-    "resumo": "Especialista em desenvolvimento frontend com foco em aplicações performáticas.",
+    "nome": "Ana Silva",
+    "foto": "./images/foto1.jpg",
+    "cargo": "Desenvolvedora Full Stack",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "São Paulo/SP",
-    "area": "Desenvolvimento",
-
-    "habilidadesTecnicas": ["React", "TypeScript", "Node.js"],
-    "softSkills": ["Comunicação", "Colaboração", "Resiliência"],
-
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "TypeScript"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe"
+    ],
     "experiencias": [
       {
-        "empresa": "TechSolutions",
-        "cargo": "Frontend Developer",
-        "inicio": "2021-03",
-        "fim": "2024-01",
-        "descricao": "Responsável por criar interfaces modernas utilizando React."
+        "empresa": "Empresa X",
+        "cargo": "Desenvolvedora Full Stack",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
       }
     ],
-
     "formacao": [
       {
-        "curso": "Engenharia de Software",
-        "instituicao": "FIAP",
-        "ano": 2020
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
       }
     ],
-
     "projetos": [
       {
-        "titulo": "Dashboard Financeiro",
-        "link": "https://meusite.com/dashboard-financeiro",
-        "descricao": "Aplicação de controle financeiro com gráficos dinâmicos."
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
       }
     ],
-
     "certificacoes": [
-      "Scrum Foundation Professional (SFPC)",
-      "React Developer Nanodegree — Udacity"
+      "Certificação Profissional X"
     ],
-
     "idiomas": [
       {
         "idioma": "Inglês",
-        "nivel": "Intermediário"
+        "nivel": "Avançado"
       }
     ],
-
-    "areaInteresses": ["Frontend", "UX", "Acessibilidade"]
+    "areainteresses": [
+      "Música",
+      "Esportes"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Carlos Mendes",
+    "foto": "./images/foto2.jpg",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Curitiba/PR",
+    "area": "Gestão",
+    "habilidadesTecnicas": [
+      "Figma",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Designer UX/UI",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Tecnologia",
+      "Ciência"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Marina Costa",
+    "foto": "./images/foto3.jpg",
+    "cargo": "Data Scientist",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Brasília/DF",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Python",
+      "Machine Learning",
+      "SQL"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Data Scientist",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Pedro Santos",
+    "foto": "./images/foto4.jpg",
+    "cargo": "DevOps Engineer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Brasília/DF",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Docker",
+      "AWS"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "DevOps Engineer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Tecnologia",
+      "Ciência"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Juliana Oliveira",
+    "foto": "./images/foto5.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "CSS",
+      "Product Strategy"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Product Manager",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Rafael Lima",
+    "foto": "./images/foto6.jpg",
+    "cargo": "Mobile Developer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "React Native",
+      "iOS"
+    ],
+    "softSkills": [
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Mobile Developer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Camila Rodrigues",
+    "foto": "./images/foto7.jpg",
+    "cargo": "Marketing Digital",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Google Ads",
+      "Social Media"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Marketing Digital",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Música",
+      "Esportes"
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Lucas Ferreira",
+    "foto": "./images/foto8.jpg",
+    "cargo": "Backend Developer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Backend Developer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Ana Silva",
+    "foto": "./images/foto1.jpg",
+    "cargo": "Desenvolvedora Full Stack",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "TypeScript"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Desenvolvedora Full Stack",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Carlos Mendes",
+    "foto": "./images/foto2.jpg",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Figma",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Designer UX/UI",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Marina Costa",
+    "foto": "./images/foto3.jpg",
+    "cargo": "Data Scientist",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Python",
+      "Machine Learning",
+      "SQL"
+    ],
+    "softSkills": [
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Data Scientist",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Música",
+      "Esportes"
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "Pedro Santos",
+    "foto": "./images/foto4.jpg",
+    "cargo": "DevOps Engineer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Docker",
+      "AWS"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "DevOps Engineer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "Juliana Oliveira",
+    "foto": "./images/foto5.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "CSS",
+      "Product Strategy"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Product Manager",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "Rafael Lima",
+    "foto": "./images/foto6.jpg",
+    "cargo": "Mobile Developer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "React Native",
+      "iOS"
+    ],
+    "softSkills": [
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Mobile Developer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Música",
+      "Esportes"
+    ]
+  },
+  {
+    "id": 15,
+    "nome": "Camila Rodrigues",
+    "foto": "./images/foto7.jpg",
+    "cargo": "Marketing Digital",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Google Ads",
+      "Social Media"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Marketing Digital",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Tecnologia",
+      "Ciência"
+    ]
+  },
+  {
+    "id": 16,
+    "nome": "Lucas Ferreira",
+    "foto": "./images/foto8.jpg",
+    "cargo": "Backend Developer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Backend Developer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 17,
+    "nome": "Ana Silva",
+    "foto": "./images/foto1.jpg",
+    "cargo": "Desenvolvedora Full Stack",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Brasília/DF",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "TypeScript"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Desenvolvedora Full Stack",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 18,
+    "nome": "Carlos Mendes",
+    "foto": "./images/foto2.jpg",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Figma",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Designer UX/UI",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 19,
+    "nome": "Marina Costa",
+    "foto": "./images/foto3.jpg",
+    "cargo": "Data Scientist",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "São Paulo/SP",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Python",
+      "Machine Learning",
+      "SQL"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Data Scientist",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 20,
+    "nome": "Pedro Santos",
+    "foto": "./images/foto4.jpg",
+    "cargo": "DevOps Engineer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Brasília/DF",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Docker",
+      "AWS"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "DevOps Engineer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 21,
+    "nome": "Juliana Oliveira",
+    "foto": "./images/foto5.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Curitiba/PR",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "CSS",
+      "Product Strategy"
+    ],
+    "softSkills": [
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Product Manager",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 22,
+    "nome": "Rafael Lima",
+    "foto": "./images/foto6.jpg",
+    "cargo": "Mobile Developer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "React Native",
+      "iOS"
+    ],
+    "softSkills": [
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Mobile Developer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 23,
+    "nome": "Camila Rodrigues",
+    "foto": "./images/foto7.jpg",
+    "cargo": "Marketing Digital",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Gestão",
+    "habilidadesTecnicas": [
+      "Google Ads",
+      "Social Media"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Marketing Digital",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 24,
+    "nome": "Lucas Ferreira",
+    "foto": "./images/foto8.jpg",
+    "cargo": "Backend Developer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Backend Developer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 25,
+    "nome": "Ana Silva",
+    "foto": "./images/foto1.jpg",
+    "cargo": "Desenvolvedora Full Stack",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Curitiba/PR",
+    "area": "Gestão",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "TypeScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Desenvolvedora Full Stack",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 26,
+    "nome": "Carlos Mendes",
+    "foto": "./images/foto2.jpg",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Gestão",
+    "habilidadesTecnicas": [
+      "Figma",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Designer UX/UI",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 27,
+    "nome": "Marina Costa",
+    "foto": "./images/foto3.jpg",
+    "cargo": "Data Scientist",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Curitiba/PR",
+    "area": "Gestão",
+    "habilidadesTecnicas": [
+      "Python",
+      "Machine Learning",
+      "SQL"
+    ],
+    "softSkills": [
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Data Scientist",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Música",
+      "Esportes"
+    ]
+  },
+  {
+    "id": 28,
+    "nome": "Pedro Santos",
+    "foto": "./images/foto4.jpg",
+    "cargo": "DevOps Engineer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Brasília/DF",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Docker",
+      "AWS"
+    ],
+    "softSkills": [
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "DevOps Engineer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 29,
+    "nome": "Juliana Oliveira",
+    "foto": "./images/foto5.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Gestão",
+    "habilidadesTecnicas": [
+      "CSS",
+      "Product Strategy"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Product Manager",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 30,
+    "nome": "Rafael Lima",
+    "foto": "./images/foto6.jpg",
+    "cargo": "Mobile Developer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Brasília/DF",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "React Native",
+      "iOS"
+    ],
+    "softSkills": [
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Mobile Developer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 31,
+    "nome": "Camila Rodrigues",
+    "foto": "./images/foto7.jpg",
+    "cargo": "Marketing Digital",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Google Ads",
+      "Social Media"
+    ],
+    "softSkills": [
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Marketing Digital",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Tecnologia",
+      "Ciência"
+    ]
+  },
+  {
+    "id": 32,
+    "nome": "Lucas Ferreira",
+    "foto": "./images/foto8.jpg",
+    "cargo": "Backend Developer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Backend Developer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Tecnologia",
+      "Ciência"
+    ]
+  },
+  {
+    "id": 33,
+    "nome": "Ana Silva",
+    "foto": "./images/foto1.jpg",
+    "cargo": "Desenvolvedora Full Stack",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Brasília/DF",
+    "area": "Gestão",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "TypeScript"
+    ],
+    "softSkills": [
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Desenvolvedora Full Stack",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 34,
+    "nome": "Carlos Mendes",
+    "foto": "./images/foto2.jpg",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Figma",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Designer UX/UI",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Música",
+      "Esportes"
+    ]
+  },
+  {
+    "id": 35,
+    "nome": "Marina Costa",
+    "foto": "./images/foto3.jpg",
+    "cargo": "Data Scientist",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Gestão",
+    "habilidadesTecnicas": [
+      "Python",
+      "Machine Learning",
+      "SQL"
+    ],
+    "softSkills": [
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Data Scientist",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 36,
+    "nome": "Pedro Santos",
+    "foto": "./images/foto4.jpg",
+    "cargo": "DevOps Engineer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Docker",
+      "AWS"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "DevOps Engineer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Tecnologia",
+      "Ciência"
+    ]
+  },
+  {
+    "id": 37,
+    "nome": "Juliana Oliveira",
+    "foto": "./images/foto5.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "CSS",
+      "Product Strategy"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Product Manager",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 38,
+    "nome": "Rafael Lima",
+    "foto": "./images/foto6.jpg",
+    "cargo": "Mobile Developer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Brasília/DF",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "React Native",
+      "iOS"
+    ],
+    "softSkills": [
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Mobile Developer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 39,
+    "nome": "Camila Rodrigues",
+    "foto": "./images/foto7.jpg",
+    "cargo": "Marketing Digital",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Google Ads",
+      "Social Media"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Marketing Digital",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Tecnologia",
+      "Ciência"
+    ]
+  },
+  {
+    "id": 40,
+    "nome": "Lucas Ferreira",
+    "foto": "./images/foto8.jpg",
+    "cargo": "Backend Developer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "São Paulo/SP",
+    "area": "Gestão",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Backend Developer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Música",
+      "Esportes"
+    ]
+  },
+  {
+    "id": 41,
+    "nome": "Ana Silva",
+    "foto": "./images/foto1.jpg",
+    "cargo": "Desenvolvedora Full Stack",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Gestão",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "TypeScript"
+    ],
+    "softSkills": [
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Desenvolvedora Full Stack",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Tecnologia",
+      "Ciência"
+    ]
+  },
+  {
+    "id": 42,
+    "nome": "Carlos Mendes",
+    "foto": "./images/foto2.jpg",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Curitiba/PR",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Figma",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Designer UX/UI",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 43,
+    "nome": "Marina Costa",
+    "foto": "./images/foto3.jpg",
+    "cargo": "Data Scientist",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Brasília/DF",
+    "area": "Gestão",
+    "habilidadesTecnicas": [
+      "Python",
+      "Machine Learning",
+      "SQL"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Data Scientist",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 44,
+    "nome": "Pedro Santos",
+    "foto": "./images/foto4.jpg",
+    "cargo": "DevOps Engineer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Curitiba/PR",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Docker",
+      "AWS"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "DevOps Engineer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Música",
+      "Esportes"
+    ]
+  },
+  {
+    "id": 45,
+    "nome": "Juliana Oliveira",
+    "foto": "./images/foto5.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "CSS",
+      "Product Strategy"
+    ],
+    "softSkills": [
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Product Manager",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Música",
+      "Esportes"
+    ]
+  },
+  {
+    "id": 46,
+    "nome": "Rafael Lima",
+    "foto": "./images/foto6.jpg",
+    "cargo": "Mobile Developer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "React Native",
+      "iOS"
+    ],
+    "softSkills": [
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Mobile Developer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 47,
+    "nome": "Camila Rodrigues",
+    "foto": "./images/foto7.jpg",
+    "cargo": "Marketing Digital",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Google Ads",
+      "Social Media"
+    ],
+    "softSkills": [
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Marketing Digital",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 48,
+    "nome": "Lucas Ferreira",
+    "foto": "./images/foto8.jpg",
+    "cargo": "Backend Developer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Backend Developer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 49,
+    "nome": "Ana Silva",
+    "foto": "./images/foto1.jpg",
+    "cargo": "Desenvolvedora Full Stack",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Brasília/DF",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "TypeScript"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Desenvolvedora Full Stack",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Tecnologia",
+      "Ciência"
+    ]
+  },
+  {
+    "id": 50,
+    "nome": "Carlos Mendes",
+    "foto": "./images/foto2.jpg",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Figma",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Designer UX/UI",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Música",
+      "Esportes"
+    ]
+  },
+  {
+    "id": 51,
+    "nome": "Marina Costa",
+    "foto": "./images/foto3.jpg",
+    "cargo": "Data Scientist",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Python",
+      "Machine Learning",
+      "SQL"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Data Scientist",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Marketing",
+      "Inovação"
+    ]
+  },
+  {
+    "id": 52,
+    "nome": "Pedro Santos",
+    "foto": "./images/foto4.jpg",
+    "cargo": "DevOps Engineer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Docker",
+      "AWS"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "DevOps Engineer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Música",
+      "Esportes"
+    ]
+  },
+  {
+    "id": 53,
+    "nome": "Juliana Oliveira",
+    "foto": "./images/foto5.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "CSS",
+      "Product Strategy"
+    ],
+    "softSkills": [
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Product Manager",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Música",
+      "Esportes"
+    ]
+  },
+  {
+    "id": 54,
+    "nome": "Rafael Lima",
+    "foto": "./images/foto6.jpg",
+    "cargo": "Mobile Developer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Brasília/DF",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "React Native",
+      "iOS"
+    ],
+    "softSkills": [
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Mobile Developer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Música",
+      "Esportes"
+    ]
+  },
+  {
+    "id": 55,
+    "nome": "Camila Rodrigues",
+    "foto": "./images/foto7.jpg",
+    "cargo": "Marketing Digital",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Curitiba/PR",
+    "area": "Gestão",
+    "habilidadesTecnicas": [
+      "Google Ads",
+      "Social Media"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Marketing Digital",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Música",
+      "Esportes"
+    ]
+  },
+  {
+    "id": 56,
+    "nome": "Lucas Ferreira",
+    "foto": "./images/foto8.jpg",
+    "cargo": "Backend Developer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Curitiba/PR",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Java",
+      "Spring Boot"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Backend Developer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 57,
+    "nome": "Ana Silva",
+    "foto": "./images/foto1.jpg",
+    "cargo": "Desenvolvedora Full Stack",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "TypeScript"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Desenvolvedora Full Stack",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 58,
+    "nome": "Carlos Mendes",
+    "foto": "./images/foto2.jpg",
+    "cargo": "Designer UX/UI",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Curitiba/PR",
+    "area": "Gestão",
+    "habilidadesTecnicas": [
+      "Figma",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Pensamento analítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Designer UX/UI",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Fotografia",
+      "Viagens",
+      "Leitura"
+    ]
+  },
+  {
+    "id": 59,
+    "nome": "Marina Costa",
+    "foto": "./images/foto3.jpg",
+    "cargo": "Data Scientist",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Gestão",
+    "habilidadesTecnicas": [
+      "Python",
+      "Machine Learning",
+      "SQL"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "Data Scientist",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Tecnologia",
+      "Ciência"
+    ]
+  },
+  {
+    "id": 60,
+    "nome": "Pedro Santos",
+    "foto": "./images/foto4.jpg",
+    "cargo": "DevOps Engineer",
+    "resumo": "Profissional experiente e apaixonado pelo que faz.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Gestão",
+    "habilidadesTecnicas": [
+      "Docker",
+      "AWS"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa X",
+        "cargo": "DevOps Engineer",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos diversos."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia",
+        "instituicao": "Universidade Y",
+        "ano": "2019"
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Projeto demonstrando habilidades profissionais."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional X"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Tecnologia",
+      "Ciência"
+    ]
   }
 ]
