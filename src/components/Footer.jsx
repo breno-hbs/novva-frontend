@@ -1,4 +1,4 @@
-
+import React from "react";
 import "../styles/Footer.css";
 import LogoNovva from "../assets/img/Novva_logo.png";
 import { useContext } from "react";

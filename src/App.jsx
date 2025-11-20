@@ -1,20 +1,14 @@
+import React from "react";
 import Navbar from "./components/Navbar";
-import "./styles/index.css";
 import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import "./index.css";
 
 export default function App() {
-  const { toggleTheme } = useTheme();
-
   return (
     <>
       <Navbar />
-
-      <div className="content">
-        {
-          
-        }
-      </div>
-
+      <Home />
       <Footer />
     </>
   );
