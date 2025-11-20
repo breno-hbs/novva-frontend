@@ -28,3 +28,13 @@
 .logo-img {
   height: 60px;
 }
+
+.navbar {
+  background-color: white;
+  color: black;
+}
+
+.navbar.dark {
+  background-color: #111827; /* mesmo tom do footer */
+  color: white;
+}
