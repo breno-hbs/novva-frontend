@@ -60,8 +60,6 @@ export default function Home() {
 
   return (
     <>
-      <Navbar />
-
       <main className="min-h-screen bg-[#F7F9FB] pt-32 pb-20">
         <section className="max-w-5xl mx-auto px-6 text-center">
           <h1 className="text-3xl font-semibold text-[#005C31]">
@@ -108,8 +106,6 @@ export default function Home() {
 
         <ProfileModal open={openModal} onClose={closeProfile} profile={selectedProfile} />
       </main>
-
-      <Footer />
     </>
   );
 }
