@@ -1,16 +1,30 @@
-import { createContext, useState, useEffect } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 
-export const ThemeContext = createContext();
+const ThemeContext = createContext();
 
 export function ThemeProvider({ children }) {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState(() => {
+    try {
+      return localStorage.getItem("novva-theme") || "light";
+    } catch {
+      return "light";
+    }
+  });
 
   useEffect(() => {
-    document.documentElement.className = theme;
+    try {
+      localStorage.setItem("novva-theme", theme);
+    } catch {}
+    const root = document.documentElement; // html element
+    if (theme === "dark") {
+      root.classList.add("dark");
+    } else {
+      root.classList.remove("dark");
+    }
   }, [theme]);
 
   function toggleTheme() {
-    setTheme((prev) => (prev === "light" ? "dark" : "light"));
+    setTheme((t) => (t === "dark" ? "light" : "dark"));
   }
 
   return (
@@ -18,4 +32,8 @@ export function ThemeProvider({ children }) {
       {children}
     </ThemeContext.Provider>
   );
+}
+
+export function useTheme() {
+  return useContext(ThemeContext);
 }

@@ -1,19 +1,31 @@
-import { useContext } from "react";
-import { ThemeContext } from "../context/ThemeContext";
+import React from "react";
+import { useTheme } from "../context/ThemeContext";
 
 export default function Navbar() {
-  const { theme, toggleTheme } = useContext(ThemeContext);
+  const { toggleTheme } = useTheme();
 
   return (
-    <nav className="w-full flex justify-between items-center p-4 bg-gray-100 dark:bg-gray-800 shadow">
-      <h1 className="text-2xl font-bold dark:text-white">Novva</h1>
+    <header className="bg-white dark:bg-gray-800 shadow-sm fixed top-0 left-0 right-0 z-50">
+      <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        
+        {/* Logo */}
+        <img
+          src="/assets/logo-novva-green.png"
+          alt="Novva"
+          className="w-32"
+        />
 
-      <button 
-        onClick={toggleTheme}
-        className="px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700"
-      >
-        {theme === "light" ? "Dark Mode" : "Light Mode"}
-      </button>
-    </nav>
+        {/* Botão tema */}
+        <button
+          onClick={toggleTheme}
+          className="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition"
+        >
+          🌙
+        </button>
+      </div>
+
+      {/* Linha separadora verde */}
+      <div className="h-[4px] bg-green-400"></div>
+    </header>
   );
 }

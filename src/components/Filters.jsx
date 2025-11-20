@@ -1,26 +1,27 @@
-import profiles from "../data/profiles.json";
+import React from "react";
 
-export default function Filters({ setFilteredArea }) {
-  const options = [
-    "Desenvolvimento",
-    "Dados",
-    "UX/UI",
-    "DevOps",
-    "Cybersegurança",
-    "IA"
-  ];
-
+export default function Filters({ areas = [], cities = [], techs = [], area, setArea, city, setCity, tech, setTech }) {
   return (
-    <select
-      className="border px-3 py-2 rounded"
-      onChange={(e) => setFilteredArea(e.target.value)}
-    >
-      <option value="">Todas as áreas</option>
-      {options.map((opt) => (
-        <option key={opt} value={opt}>
-          {opt}
-        </option>
-      ))}
-    </select>
+    <div className="flex gap-3 flex-wrap justify-center">
+      <select value={area} onChange={(e) => setArea(e.target.value)} className="rounded-full border px-4 py-2">
+        <option value="">Todas as áreas</option>
+        {areas.map(a => <option key={a} value={a}>{a}</option>)}
+      </select>
+
+      <select value={city} onChange={(e) => setCity(e.target.value)} className="rounded-full border px-4 py-2">
+        <option value="">Todas as cidades</option>
+        {cities.map(c => <option key={c} value={c}>{c}</option>)}
+      </select>
+
+      <select value={tech} onChange={(e) => setTech(e.target.value)} className="rounded-full border px-4 py-2">
+        <option value="">Todas as tecnologias</option>
+        {techs.map(t => <option key={t} value={t}>{t}</option>)}
+      </select>
+
+      <button onClick={() => { setArea(''); setCity(''); setTech(''); }} className="px-4 py-2 rounded-full border">
+        Resetar filtros
+      </button>
+    </div>
   );
 }
+
