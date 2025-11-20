@@ -1,124 +1,124 @@
-import React, { useMemo, useState, useEffect } from "react";
-import { getAllProfiles, searchProfiles } from "../services/profilesService";
-import ProfileCard from "../components/ProfileCard";
-import SearchBar from "../components/SearchBar";
-import Filters from "../components/Filters";
-import ProfileModal from "../components/ProfileModal";
-import Pagination from "../components/Pagination";
+// import React, { useMemo, useState, useEffect } from "react";
+// import { getAllProfiles, searchProfiles } from "../services/profilesService";
+// import ProfileCard from "../components/ProfileCard";
+// import SearchBar from "../components/SearchBar";
+// import Filters from "../components/Filters";
+// import ProfileModal from "../components/ProfileModal";
+// import Pagination from "../components/Pagination";
 
-export default function Home() {
-  const [query, setQuery] = useState("");
-  const [area, setArea] = useState("");
-  const [city, setCity] = useState("");
-  const [tech, setTech] = useState("");
-  const [page, setPage] = useState(1);
-  const [selectedProfile, setSelectedProfile] = useState(null);
-  const [openModal, setOpenModal] = useState(false);
+// export default function Home() {
+//   const [query, setQuery] = useState("");
+//   const [area, setArea] = useState("");
+//   const [city, setCity] = useState("");
+//   const [tech, setTech] = useState("");
+//   const [page, setPage] = useState(1);
+//   const [selectedProfile, setSelectedProfile] = useState(null);
+//   const [openModal, setOpenModal] = useState(false);
 
-  const perPage = 12;
+//   const perPage = 12;
 
-  // Carrega todos os perfis
-  const allProfiles = useMemo(() => getAllProfiles(), []);
+//   // Carrega todos os perfis
+//   const allProfiles = useMemo(() => getAllProfiles(), []);
 
-  // Preenche listas únicas para filtros
-  const areas = useMemo(
-    () => Array.from(new Set(allProfiles.map((p) => p.area).filter(Boolean))),
-    [allProfiles]
-  );
+//   // Preenche listas únicas para filtros
+//   const areas = useMemo(
+//     () => Array.from(new Set(allProfiles.map((p) => p.area).filter(Boolean))),
+//     [allProfiles]
+//   );
 
-  const cities = useMemo(
-    () => Array.from(new Set(allProfiles.map((p) => p.localizacao).filter(Boolean))),
-    [allProfiles]
-  );
+//   const cities = useMemo(
+//     () => Array.from(new Set(allProfiles.map((p) => p.localizacao).filter(Boolean))),
+//     [allProfiles]
+//   );
 
-  const techs = useMemo(
-    () =>
-      Array.from(
-        new Set(allProfiles.flatMap((p) => p.habilidadesTecnicas || []))
-      ).slice(0, 50),
-    [allProfiles]
-  );
+//   const techs = useMemo(
+//     () =>
+//       Array.from(
+//         new Set(allProfiles.flatMap((p) => p.habilidadesTecnicas || []))
+//       ).slice(0, 50),
+//     [allProfiles]
+//   );
 
-  // Aplica busca e filtros
-  const filtered = useMemo(() => {
-    return searchProfiles({ query, area, city, tech });
-  }, [query, area, city, tech]);
+//   // Aplica busca e filtros
+//   const filtered = useMemo(() => {
+//     return searchProfiles({ query, area, city, tech });
+//   }, [query, area, city, tech]);
 
-  // Paginação
-  const totalPages = Math.max(1, Math.ceil(filtered.length / perPage));
-  const pageItems = filtered.slice((page - 1) * perPage, page * perPage);
+//   // Paginação
+//   const totalPages = Math.max(1, Math.ceil(filtered.length / perPage));
+//   const pageItems = filtered.slice((page - 1) * perPage, page * perPage);
 
-  function openProfile(p) {
-    setSelectedProfile(p);
-    setOpenModal(true);
-  }
+//   function openProfile(p) {
+//     setSelectedProfile(p);
+//     setOpenModal(true);
+//   }
 
-  function closeProfile() {
-    setOpenModal(false);
-    setSelectedProfile(null);
-  }
+//   function closeProfile() {
+//     setOpenModal(false);
+//     setSelectedProfile(null);
+//   }
 
-  // Reinicia a página quando filtros mudam
-  useEffect(() => setPage(1), [query, area, city, tech]);
+//   // Reinicia a página quando filtros mudam
+//   useEffect(() => setPage(1), [query, area, city, tech]);
 
-  return (
-    <main className="min-h-screen bg-[#F7F9FB] pt-32 pb-20">
-      {/* CONTAINER PRINCIPAL */}
-      <section className="max-w-5xl mx-auto px-6 text-center">
+//   return (
+//     <main className="min-h-screen bg-[#F7F9FB] pt-32 pb-20">
+//       {/* CONTAINER PRINCIPAL */}
+//       <section className="max-w-5xl mx-auto px-6 text-center">
 
-        {/* TÍTULO */}
-        <h1 className="text-3xl font-semibold text-[#005C31]">
-          Encontre os melhores profissionais
-        </h1>
+//         {/* TÍTULO */}
+//         <h1 className="text-3xl font-semibold text-[#005C31]">
+//           Encontre os melhores profissionais
+//         </h1>
 
-        <p className="mt-3 text-base text-gray-600">
-          Conecte-se com talentos de tecnologia, design, marketing e gestão em todo o Brasil
-        </p>
+//         <p className="mt-3 text-base text-gray-600">
+//           Conecte-se com talentos de tecnologia, design, marketing e gestão em todo o Brasil
+//         </p>
 
-        {/* BARRA DE BUSCA */}
-        <div className="mt-10">
-          <SearchBar query={query} setQuery={setQuery} />
-        </div>
+//         {/* BARRA DE BUSCA */}
+//         <div className="mt-10">
+//           <SearchBar query={query} setQuery={setQuery} />
+//         </div>
 
-        {/* FILTROS */}
-        <div className="mt-10">
-          <Filters
-            areas={areas}
-            cities={cities}
-            techs={techs}
-            area={area}
-            setArea={setArea}
-            city={city}
-            setCity={setCity}
-            tech={tech}
-            setTech={setTech}
-          />
-        </div>
+//         {/* FILTROS */}
+//         <div className="mt-10">
+//           <Filters
+//             areas={areas}
+//             cities={cities}
+//             techs={techs}
+//             area={area}
+//             setArea={setArea}
+//             city={city}
+//             setCity={setCity}
+//             tech={tech}
+//             setTech={setTech}
+//           />
+//         </div>
 
-        {/* CONTADOR */}
-        <div className="mt-10 text-gray-500 text-sm">
-          <div>{filtered.length} profissionais</div>
-          <div className="text-xs text-gray-400">encontrados</div>
-        </div>
-      </section>
+//         {/* CONTADOR */}
+//         <div className="mt-10 text-gray-500 text-sm">
+//           <div>{filtered.length} profissionais</div>
+//           <div className="text-xs text-gray-400">encontrados</div>
+//         </div>
+//       </section>
 
-      {/* GRID DE CARDS */}
-      <section className="max-w-5xl mx-auto px-6 pb-24 mt-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {pageItems.map((p) => (
-            <ProfileCard key={p.id} pessoa={p} onOpen={openProfile} />
-          ))}
-        </div>
+//       {/* GRID DE CARDS */}
+//       <section className="max-w-5xl mx-auto px-6 pb-24 mt-10">
+//         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+//           {pageItems.map((p) => (
+//             <ProfileCard key={p.id} pessoa={p} onOpen={openProfile} />
+//           ))}
+//         </div>
 
-        {/* PAGINAÇÃO */}
-        <Pagination page={page} setPage={setPage} totalPages={totalPages} />
-      </section>
+//         {/* PAGINAÇÃO */}
+//         <Pagination page={page} setPage={setPage} totalPages={totalPages} />
+//       </section>
 
-      {/* MODAL */}
-      <ProfileModal open={openModal} onClose={closeProfile} profile={selectedProfile} />
-    </main>
-  );
-}
+//       {/* MODAL */}
+//       <ProfileModal open={openModal} onClose={closeProfile} profile={selectedProfile} />
+//     </main>
+//   );
+// }
 
 
 
