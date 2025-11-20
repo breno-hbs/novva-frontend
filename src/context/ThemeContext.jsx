@@ -2,38 +2,19 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 
 const ThemeContext = createContext();
 
-export function ThemeProvider({ children }) {
-  const [theme, setTheme] = useState(() => {
-    try {
-      return localStorage.getItem("novva-theme") || "light";
-    } catch {
-      return "light";
-    }
+export const ThemeProvider = ({ children }) => {
+  const [darkMode, setDarkMode] = useState(() => {
+    return localStorage.getItem("darkMode") === "true";
   });
 
   useEffect(() => {
-    try {
-      localStorage.setItem("novva-theme", theme);
-    } catch {}
-    const root = document.documentElement; // html element
-    if (theme === "dark") {
-      root.classList.add("dark");
-    } else {
-      root.classList.remove("dark");
-    }
-  }, [theme]);
-
-  function toggleTheme() {
-    setTheme((t) => (t === "dark" ? "light" : "dark"));
-  }
+    localStorage.setItem("darkMode", darkMode);
+    document.documentElement.setAttribute("data-theme", darkMode ? "dark" : "light");
+  }, [darkMode]);
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+    <ThemeContext.Provider value={{ darkMode, setDarkMode }}>
       {children}
     </ThemeContext.Provider>
   );
-}
-
-export function useTheme() {
-  return useContext(ThemeContext);
-}
+};

@@ -1,7 +1,19 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@layer base {
-  body {
-    @apply bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
-  }
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+}
+
+[data-theme="dark"] {
+  --bg: #121212;
+  --text: #ffffff;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: 0.3s;
 }
