@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Martins",
+    "foto": "./images/perfil1.jpg",
+    "cargo": "Engenheira de Software Pleno",
+    "resumo": "Especialista em desenvolvimento frontend com foco em aplicações performáticas.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+
+    "habilidadesTecnicas": ["React", "TypeScript", "Node.js"],
+    "softSkills": ["Comunicação", "Colaboração", "Resiliência"],
+
+    "experiencias": [
+      {
+        "empresa": "TechSolutions",
+        "cargo": "Frontend Developer",
+        "inicio": "2021-03",
+        "fim": "2024-01",
+        "descricao": "Responsável por criar interfaces modernas utilizando React."
+      }
+    ],
+
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+
+    "projetos": [
+      {
+        "titulo": "Dashboard Financeiro",
+        "link": "https://meusite.com/dashboard-financeiro",
+        "descricao": "Aplicação de controle financeiro com gráficos dinâmicos."
+      }
+    ],
+
+    "certificacoes": [
+      "Scrum Foundation Professional (SFPC)",
+      "React Developer Nanodegree — Udacity"
+    ],
+
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+
+    "areaInteresses": ["Frontend", "UX", "Acessibilidade"]
+  }
+]
