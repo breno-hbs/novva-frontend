@@ -1,19 +1,29 @@
+
+import "./../styles/Navbar.css";
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
+import LogoNovva from "../assets/img/Novva_logo.png";
 
 export default function Navbar() {
-  const { theme, toggleTheme } = useContext(ThemeContext);
+  const { darkMode, setDarkMode } = useContext(ThemeContext);
 
   return (
-    <nav className="w-full flex justify-between items-center p-4 bg-gray-100 dark:bg-gray-800 shadow">
-      <h1 className="text-2xl font-bold dark:text-white">Novva</h1>
+    <nav className="navbar">
+      <div className="navbar-logo">
+        <img
+          src={LogoNovva}
+          alt="NOVVA Logo"
+          className="logo-img"
+        />
+        {/* <span>NOVVA</span> */}
+      </div>
 
-      <button 
-        onClick={toggleTheme}
-        className="px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700"
+      <div
+        className="theme-toggle"
+        onClick={() => setDarkMode(!darkMode)}
       >
-        {theme === "light" ? "Dark Mode" : "Light Mode"}
-      </button>
+        {darkMode ? "🌙" : "☀️"}
+      </div>
     </nav>
   );
 }
