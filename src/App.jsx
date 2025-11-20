@@ -1,12 +1,19 @@
 import Navbar from "./components/Navbar";
+import "./styles/index.css";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 transition">
+    <>
       <Navbar />
-      <div className="p-10 text-3xl text-black dark:text-white">
-        Dark Mode funcionando!
+
+      <div className="content">
+        {
+          
+        }
       </div>
-    </div>
+
+      <Footer />
+    </>
   );
 }
