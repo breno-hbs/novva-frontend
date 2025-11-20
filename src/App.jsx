@@ -1,12 +1,11 @@
 import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 transition">
+    <div>
       <Navbar />
-      <div className="p-10 text-3xl text-black dark:text-white">
-        Dark Mode funcionando!
-      </div>
+      <Home />
     </div>
   );
 }
