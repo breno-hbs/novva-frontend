@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nome": "Ana Silva",
-    "foto": "./images/foto1.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Desenvolvedora Full Stack",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "São Paulo/SP",
@@ -56,7 +56,7 @@
   {
     "id": 2,
     "nome": "Carlos Mendes",
-    "foto": "./images/foto2.jpg",
+    "foto": "/src/assets/profiles/img2.jpg",
     "cargo": "Designer UX/UI",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Curitiba/PR",
@@ -108,7 +108,7 @@
   {
     "id": 3,
     "nome": "Marina Costa",
-    "foto": "./images/foto3.jpg",
+    "foto": "/src/assets/profiles/img3.jpg",
     "cargo": "Data Scientist",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Brasília/DF",
@@ -162,7 +162,7 @@
   {
     "id": 4,
     "nome": "Pedro Santos",
-    "foto": "./images/foto4.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "DevOps Engineer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Brasília/DF",
@@ -215,7 +215,7 @@
   {
     "id": 5,
     "nome": "Juliana Oliveira",
-    "foto": "./images/foto5.jpg",
+    "foto": "/src/assets/profiles/img5.jpg",
     "cargo": "Product Manager",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -267,7 +267,7 @@
   {
     "id": 6,
     "nome": "Rafael Lima",
-    "foto": "./images/foto6.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Mobile Developer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Curitiba/PR",
@@ -320,7 +320,7 @@
   {
     "id": 7,
     "nome": "Camila Rodrigues",
-    "foto": "./images/foto7.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Marketing Digital",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -372,7 +372,7 @@
   {
     "id": 8,
     "nome": "Lucas Ferreira",
-    "foto": "./images/foto8.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Backend Developer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Curitiba/PR",
@@ -425,7 +425,7 @@
   {
     "id": 9,
     "nome": "Ana Silva",
-    "foto": "./images/foto1.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Desenvolvedora Full Stack",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "São Paulo/SP",
@@ -478,7 +478,7 @@
   {
     "id": 10,
     "nome": "Carlos Mendes",
-    "foto": "./images/foto2.jpg",
+    "foto": "/src/assets/profiles/img2.jpg",
     "cargo": "Designer UX/UI",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Belo Horizonte/MG",
@@ -532,7 +532,7 @@
   {
     "id": 11,
     "nome": "Marina Costa",
-    "foto": "./images/foto3.jpg",
+    "foto": "/src/assets/profiles/img3.jpg",
     "cargo": "Data Scientist",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "São Paulo/SP",
@@ -585,7 +585,7 @@
   {
     "id": 12,
     "nome": "Pedro Santos",
-    "foto": "./images/foto4.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "DevOps Engineer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Curitiba/PR",
@@ -638,7 +638,7 @@
   {
     "id": 13,
     "nome": "Juliana Oliveira",
-    "foto": "./images/foto5.jpg",
+    "foto": "/src/assets/profiles/img5.jpg",
     "cargo": "Product Manager",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Belo Horizonte/MG",
@@ -692,7 +692,7 @@
   {
     "id": 14,
     "nome": "Rafael Lima",
-    "foto": "./images/foto6.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Mobile Developer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Belo Horizonte/MG",
@@ -744,7 +744,7 @@
   {
     "id": 15,
     "nome": "Camila Rodrigues",
-    "foto": "./images/foto7.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Marketing Digital",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Porto Alegre/RS",
@@ -796,7 +796,7 @@
   {
     "id": 16,
     "nome": "Lucas Ferreira",
-    "foto": "./images/foto8.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Backend Developer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -848,7 +848,7 @@
   {
     "id": 17,
     "nome": "Ana Silva",
-    "foto": "./images/foto1.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Desenvolvedora Full Stack",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Brasília/DF",
@@ -902,7 +902,7 @@
   {
     "id": 18,
     "nome": "Carlos Mendes",
-    "foto": "./images/foto2.jpg",
+    "foto": "/src/assets/profiles/img2.jpg",
     "cargo": "Designer UX/UI",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Belo Horizonte/MG",
@@ -955,7 +955,7 @@
   {
     "id": 19,
     "nome": "Marina Costa",
-    "foto": "./images/foto3.jpg",
+    "foto": "/src/assets/profiles/img3.jpg",
     "cargo": "Data Scientist",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "São Paulo/SP",
@@ -1009,7 +1009,7 @@
   {
     "id": 20,
     "nome": "Pedro Santos",
-    "foto": "./images/foto4.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "DevOps Engineer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Brasília/DF",
@@ -1062,7 +1062,7 @@
   {
     "id": 21,
     "nome": "Juliana Oliveira",
-    "foto": "./images/foto5.jpg",
+    "foto": "/src/assets/profiles/img5.jpg",
     "cargo": "Product Manager",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Curitiba/PR",
@@ -1114,7 +1114,7 @@
   {
     "id": 22,
     "nome": "Rafael Lima",
-    "foto": "./images/foto6.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Mobile Developer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Porto Alegre/RS",
@@ -1167,7 +1167,7 @@
   {
     "id": 23,
     "nome": "Camila Rodrigues",
-    "foto": "./images/foto7.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Marketing Digital",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Porto Alegre/RS",
@@ -1220,7 +1220,7 @@
   {
     "id": 24,
     "nome": "Lucas Ferreira",
-    "foto": "./images/foto8.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Backend Developer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Porto Alegre/RS",
@@ -1272,7 +1272,7 @@
   {
     "id": 25,
     "nome": "Ana Silva",
-    "foto": "./images/foto1.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Desenvolvedora Full Stack",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Curitiba/PR",
@@ -1327,7 +1327,7 @@
   {
     "id": 26,
     "nome": "Carlos Mendes",
-    "foto": "./images/foto2.jpg",
+    "foto": "/src/assets/profiles/img2.jpg",
     "cargo": "Designer UX/UI",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Porto Alegre/RS",
@@ -1380,7 +1380,7 @@
   {
     "id": 27,
     "nome": "Marina Costa",
-    "foto": "./images/foto3.jpg",
+    "foto": "/src/assets/profiles/img3.jpg",
     "cargo": "Data Scientist",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Curitiba/PR",
@@ -1433,7 +1433,7 @@
   {
     "id": 28,
     "nome": "Pedro Santos",
-    "foto": "./images/foto4.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "DevOps Engineer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Brasília/DF",
@@ -1485,7 +1485,7 @@
   {
     "id": 29,
     "nome": "Juliana Oliveira",
-    "foto": "./images/foto5.jpg",
+    "foto": "/src/assets/profiles/img5.jpg",
     "cargo": "Product Manager",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -1538,7 +1538,7 @@
   {
     "id": 30,
     "nome": "Rafael Lima",
-    "foto": "./images/foto6.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Mobile Developer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Brasília/DF",
@@ -1591,7 +1591,7 @@
   {
     "id": 31,
     "nome": "Camila Rodrigues",
-    "foto": "./images/foto7.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Marketing Digital",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -1643,7 +1643,7 @@
   {
     "id": 32,
     "nome": "Lucas Ferreira",
-    "foto": "./images/foto8.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Backend Developer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Belo Horizonte/MG",
@@ -1696,7 +1696,7 @@
   {
     "id": 33,
     "nome": "Ana Silva",
-    "foto": "./images/foto1.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Desenvolvedora Full Stack",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Brasília/DF",
@@ -1749,7 +1749,7 @@
   {
     "id": 34,
     "nome": "Carlos Mendes",
-    "foto": "./images/foto2.jpg",
+    "foto": "/src/assets/profiles/img2.jpg",
     "cargo": "Designer UX/UI",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -1802,7 +1802,7 @@
   {
     "id": 35,
     "nome": "Marina Costa",
-    "foto": "./images/foto3.jpg",
+    "foto": "/src/assets/profiles/img3.jpg",
     "cargo": "Data Scientist",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Belo Horizonte/MG",
@@ -1856,7 +1856,7 @@
   {
     "id": 36,
     "nome": "Pedro Santos",
-    "foto": "./images/foto4.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "DevOps Engineer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Belo Horizonte/MG",
@@ -1909,7 +1909,7 @@
   {
     "id": 37,
     "nome": "Juliana Oliveira",
-    "foto": "./images/foto5.jpg",
+    "foto": "/src/assets/profiles/img5.jpg",
     "cargo": "Product Manager",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Porto Alegre/RS",
@@ -1962,7 +1962,7 @@
   {
     "id": 38,
     "nome": "Rafael Lima",
-    "foto": "./images/foto6.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Mobile Developer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Brasília/DF",
@@ -2014,7 +2014,7 @@
   {
     "id": 39,
     "nome": "Camila Rodrigues",
-    "foto": "./images/foto7.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Marketing Digital",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Porto Alegre/RS",
@@ -2066,7 +2066,7 @@
   {
     "id": 40,
     "nome": "Lucas Ferreira",
-    "foto": "./images/foto8.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Backend Developer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "São Paulo/SP",
@@ -2119,7 +2119,7 @@
   {
     "id": 41,
     "nome": "Ana Silva",
-    "foto": "./images/foto1.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Desenvolvedora Full Stack",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Porto Alegre/RS",
@@ -2172,7 +2172,7 @@
   {
     "id": 42,
     "nome": "Carlos Mendes",
-    "foto": "./images/foto2.jpg",
+    "foto": "/src/assets/profiles/img2.jpg",
     "cargo": "Designer UX/UI",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Curitiba/PR",
@@ -2225,7 +2225,7 @@
   {
     "id": 43,
     "nome": "Marina Costa",
-    "foto": "./images/foto3.jpg",
+    "foto": "/src/assets/profiles/img3.jpg",
     "cargo": "Data Scientist",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Brasília/DF",
@@ -2278,7 +2278,7 @@
   {
     "id": 44,
     "nome": "Pedro Santos",
-    "foto": "./images/foto4.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "DevOps Engineer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Curitiba/PR",
@@ -2331,7 +2331,7 @@
   {
     "id": 45,
     "nome": "Juliana Oliveira",
-    "foto": "./images/foto5.jpg",
+    "foto": "/src/assets/profiles/img5.jpg",
     "cargo": "Product Manager",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -2383,7 +2383,7 @@
   {
     "id": 46,
     "nome": "Rafael Lima",
-    "foto": "./images/foto6.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Mobile Developer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "São Paulo/SP",
@@ -2436,7 +2436,7 @@
   {
     "id": 47,
     "nome": "Camila Rodrigues",
-    "foto": "./images/foto7.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Marketing Digital",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "São Paulo/SP",
@@ -2488,7 +2488,7 @@
   {
     "id": 48,
     "nome": "Lucas Ferreira",
-    "foto": "./images/foto8.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Backend Developer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -2540,7 +2540,7 @@
   {
     "id": 49,
     "nome": "Ana Silva",
-    "foto": "./images/foto1.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Desenvolvedora Full Stack",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Brasília/DF",
@@ -2593,7 +2593,7 @@
   {
     "id": 50,
     "nome": "Carlos Mendes",
-    "foto": "./images/foto2.jpg",
+    "foto": "/src/assets/profiles/img2.jpg",
     "cargo": "Designer UX/UI",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "São Paulo/SP",
@@ -2645,7 +2645,7 @@
   {
     "id": 51,
     "nome": "Marina Costa",
-    "foto": "./images/foto3.jpg",
+    "foto": "/src/assets/profiles/img3.jpg",
     "cargo": "Data Scientist",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Porto Alegre/RS",
@@ -2699,7 +2699,7 @@
   {
     "id": 52,
     "nome": "Pedro Santos",
-    "foto": "./images/foto4.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "DevOps Engineer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "São Paulo/SP",
@@ -2752,7 +2752,7 @@
   {
     "id": 53,
     "nome": "Juliana Oliveira",
-    "foto": "./images/foto5.jpg",
+    "foto": "/src/assets/profiles/img5.jpg",
     "cargo": "Product Manager",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Porto Alegre/RS",
@@ -2804,7 +2804,7 @@
   {
     "id": 54,
     "nome": "Rafael Lima",
-    "foto": "./images/foto6.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Mobile Developer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Brasília/DF",
@@ -2856,7 +2856,7 @@
   {
     "id": 55,
     "nome": "Camila Rodrigues",
-    "foto": "./images/foto7.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Marketing Digital",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Curitiba/PR",
@@ -2908,7 +2908,7 @@
   {
     "id": 56,
     "nome": "Lucas Ferreira",
-    "foto": "./images/foto8.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Backend Developer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Curitiba/PR",
@@ -2962,7 +2962,7 @@
   {
     "id": 57,
     "nome": "Ana Silva",
-    "foto": "./images/foto1.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "Desenvolvedora Full Stack",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Belo Horizonte/MG",
@@ -3016,7 +3016,7 @@
   {
     "id": 58,
     "nome": "Carlos Mendes",
-    "foto": "./images/foto2.jpg",
+    "foto": "/src/assets/profiles/img2.jpg",
     "cargo": "Designer UX/UI",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Curitiba/PR",
@@ -3069,7 +3069,7 @@
   {
     "id": 59,
     "nome": "Marina Costa",
-    "foto": "./images/foto3.jpg",
+    "foto": "/src/assets/profiles/img3.jpg",
     "cargo": "Data Scientist",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Porto Alegre/RS",
@@ -3123,7 +3123,7 @@
   {
     "id": 60,
     "nome": "Pedro Santos",
-    "foto": "./images/foto4.jpg",
+    "foto": "/src/assets/profiles/img1.jpg",
     "cargo": "DevOps Engineer",
     "resumo": "Profissional experiente e apaixonado pelo que faz.",
     "localizacao": "Porto Alegre/RS",

@@ -2,14 +2,31 @@ import profiles from "../data/profiles.json";
 
 import img1 from "../assets/profiles/img1.jpg";
 import img2 from "../assets/profiles/img2.jpg";
+import img3 from "../assets/profiles/img3.jpg";
 import img5 from "../assets/profiles/img5.jpg";
 
-const fotos = [img1, img2, img5];
+// Mapeamento específico de fotos por nome (CORRIGIDO)
+// img2 = ÚNICA FEMININA
+// img1, img3, img5 = MASCULINAS
+const fotosPorNome = {
+  'Ana Silva': img2,
+  'Marina Costa': img2,
+  'Juliana Oliveira': img2,
+  'Camila Rodrigues': img2,
+  'Carlos Mendes': img1,
+  'Pedro Santos': img3,
+  'Rafael Lima': img5,
+  'Lucas Ferreira': img1
+};
+
+function getFoto(nome) {
+  return fotosPorNome[nome] || img1;
+}
 
 export function getAllProfiles() {
-  return profiles.map((p, i) => ({
+  return profiles.map((p) => ({
     ...p,
-    foto: fotos[i % fotos.length]  
+    foto: getFoto(p.nome)
   }));
 }
 
@@ -31,7 +48,8 @@ export function searchProfiles({ query = "", area = "", city = "", tech = "" }) 
           h.toLowerCase().includes(q)
         ));
 
-    const matchArea = !area || p.area === area;
+    // Corrigido: comparação case-insensitive e com trim
+    const matchArea = !area || (p.area && p.area.trim().toLowerCase() === area.trim().toLowerCase());
 
     const matchCity =
       !city ||
