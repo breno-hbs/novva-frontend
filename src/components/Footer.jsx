@@ -1,14 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../styles/Footer.css";
 import LogoNovva from "../assets/img/Novva_logo.png";
-import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 
 export default function Footer() {
-  const { darkMode } = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
 
   return (
-    <footer className={`footer ${darkMode ? "dark" : ""}`}>
+    <footer className={`footer ${theme === "dark" ? "dark" : ""}`}>
       <div className="footer-content">
 
         <div className="footer-logo">
@@ -17,11 +16,6 @@ export default function Footer() {
 
         <p className="footer-text">© 2025 NOVVA – Todos os direitos reservados</p>
 
-        <div className="social-icons">
-          <a href="#"><i className="fab fa-instagram"></i></a>
-          <a href="#"><i className="fab fa-linkedin"></i></a>
-          <a href="#"><i className="fab fa-github"></i></a>
-        </div>
 
       </div>
     </footer>

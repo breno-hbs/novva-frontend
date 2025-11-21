@@ -5,10 +5,10 @@ import { ThemeContext } from "../context/ThemeContext";
 import LogoNovva from "../assets/img/Novva_logo.png";
 
 export default function Navbar() {
-  const { darkMode, setDarkMode } = useContext(ThemeContext);
+  const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
-    <nav className={`navbar ${darkMode ? "dark" : ""}`}>
+    <nav className={`navbar ${theme === "dark" ? "dark" : ""}`}>
       <div className="navbar-logo">
         <img
           src={LogoNovva}
@@ -19,9 +19,9 @@ export default function Navbar() {
 
       <div
         className="theme-toggle"
-        onClick={() => setDarkMode(!darkMode)}
+        onClick={toggleTheme}
       >
-        {darkMode ? "🌙" : "☀️"}
+        {theme === "dark" ? "🌙" : "☀️"}
       </div>
     </nav>
   );
