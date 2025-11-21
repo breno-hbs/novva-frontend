@@ -1,16 +1,63 @@
-# React + Vite
+📘 README — NOVVA (Frontend)
+🧩 Resumo do Projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A NOVVA é uma plataforma que conecta profissionais das áreas de tecnologia, design, marketing e gestão com empresas e recrutadores de todo o Brasil.
 
-Currently, two official plugins are available:
+O sistema permite:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Busca por nome, cargo e habilidades
 
-## React Compiler
+Filtros por área, cidade e tecnologia
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Contador de profissionais encontrados
 
-## Expanding the ESLint configuration
+Visualização de cards individuais
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Modal com informações detalhadas
+
+Dark Mode
+
+Layout fiel ao Figma
+
+Totalmente responsivo
+
+Dados carregados via arquivo JSON local
+
+O projeto utiliza React + Vite + TailwindCSS para entregar uma interface moderna e rápida.
+
+🔑 Usuários e Senhas
+
+O projeto não possui autenticação, pois se trata de um frontend conectado a um JSON local (profiles.json) que simula uma base de dados.
+
+🛠️ Instalação do Projeto
+1️⃣ Clonar o repositório
+git clone https://github.com/breno-hbs/novva-frontend
+
+2️⃣ Entrar na pasta
+cd novva-frontend
+
+3️⃣ Instalar dependências
+npm install
+
+4️⃣ Executar o projeto
+npm run dev
+
+
+A aplicação estará disponível em:
+👉 http://localhost:5173/
+
+🚀 Deploy
+
+O deploy será disponibilizado futuramente.
+
+🔗 Link do Deploy: aguardando publicação
+
+
+📂 Repositório
+
+🔗 https://github.com/breno-hbs/novva-frontend
+
+👥 Integrantes do Grupo
+Pedro Henrique do Santos	RM564188	
+Pedro Cunha Coutinho	RM562191	
+Breno Henrique Bortoloti Santos	RM562856	
