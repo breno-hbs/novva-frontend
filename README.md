@@ -39,17 +39,8 @@ npm install
 npm run dev
 
 A aplicação estará disponível em:
-http://localhost:5173/
 
----
-
-## 🚀 Deploy
-O deploy será disponibilizado futuramente.
-
----
-
-## 📂 Repositório
-https://github.com/breno-hbs/novva-frontend
+https://novva-frontend.vercel.app/
 
 ---
 
