@@ -59,53 +59,57 @@ export default function Home() {
   useEffect(() => setPage(1), [query, area, city, tech]);
 
   return (
-    <>
-      <main className="min-h-screen bg-[#F7F9FB] pt-32 pb-20">
-        <section className="max-w-5xl mx-auto px-6 text-center">
-          <h1 className="text-3xl font-semibold text-[#005C31]">
-            Encontre os melhores profissionais
-          </h1>
+  <>
 
-          <p className="mt-3 text-base text-gray-600">
-            Conecte-se com talentos de tecnologia, design, marketing e gestão em todo o Brasil
-          </p>
+    <main className="min-h-screen bg-[#F7F9FB] pt-28 pb-20 bg-white dark:bg-[#0F1116]">
+      <section className="max-w-5xl mx-auto px-6 text-center">
+        <h1 className="text-3xl font-semibold text-[#005C31]">
+          Encontre os melhores profissionais
+        </h1>
 
-          <div className="mt-10">
-            <SearchBar query={query} setQuery={setQuery} />
-          </div>
+        <p className="mt-3 text-base text-gray-600">
+          Conecte-se com talentos de tecnologia, design, marketing e gestão em todo o Brasil
+        </p>
 
-          <div className="mt-10">
-            <Filters
-              areas={areas}
-              cities={cities}
-              techs={techs}
-              area={area}
-              setArea={setArea}
-              city={city}
-              setCity={setCity}
-              tech={tech}
-              setTech={setTech}
-            />
-          </div>
+        <div className="mt-10">
+        <SearchBar query={query} setQuery={setQuery} />
+        </div>
 
-          <div className="mt-10 text-gray-500 text-sm">
-            <div>{filtered.length} profissionais</div>
-            <div className="text-xs text-gray-400">encontrados</div>
-          </div>
-        </section>
 
-        <section className="max-w-5xl mx-auto px-6 pb-24 mt-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {pageItems.map((p) => (
-              <ProfileCard key={p.id} pessoa={p} onOpen={openProfile} />
-            ))}
-          </div>
+        <div className="mt-10">
+          <Filters
+            areas={areas}
+            cities={cities}
+            techs={techs}
+            area={area}
+            setArea={setArea}
+            city={city}
+            setCity={setCity}
+            tech={tech}
+            setTech={setTech}
+          />
+        </div>
 
-          <Pagination page={page} setPage={setPage} totalPages={totalPages} />
-        </section>
+        <div className="mt-10 text-gray-500 text-sm">
+          <div>{filtered.length} profissionais</div>
+          <div className="text-xs text-gray-400">encontrados</div>
+        </div>
+      </section>
 
-        <ProfileModal open={openModal} onClose={closeProfile} profile={selectedProfile} />
-      </main>
-    </>
-  );
+      <section className="max-w-5xl mx-auto px-6 pb-24 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          {pageItems.map((p) => (
+            <ProfileCard key={p.id} pessoa={p} onOpen={openProfile} />
+          ))}
+        </div>
+
+        <Pagination page={page} setPage={setPage} totalPages={totalPages} />
+      </section>
+
+      <ProfileModal open={openModal} onClose={closeProfile} profile={selectedProfile} />
+    </main>
+
+  </>
+);
+
 }
