@@ -38,13 +38,23 @@ npm install
 ### 4. Executar o projeto
 npm run dev
 
+---
+
+## Link do Deploy
+
 A aplicação estará disponível em:
 
 https://novva-frontend.vercel.app/
 
 ---
 
+## Link do Repositório
+
+https://github.com/breno-hbs/novva-frontend
+
+---
 ## 👥 Integrantes do Grupo
+
 - Pedro Henrique do Santos — RM564188
 
 - Pedro Cunha Coutinho — RM562191
