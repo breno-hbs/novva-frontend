@@ -27,6 +27,36 @@ O projeto **não possui autenticação**, pois utiliza apenas dados do arquivo l
 ## 🛠 Instalação do Projeto
 
 ### 1. Clonar o repositório
-```bash
 git clone https://github.com/breno-hbs/novva-frontend
+
+### 2. Entrar na pasta
+cd novva-frontend
+
+### 3. Instalar dependências
+npm install
+
+### 4. Executar o projeto
+npm run dev
+
+A aplicação estará disponível em:
+http://localhost:5173/
+
+---
+
+## 🚀 Deploy
+O deploy será disponibilizado futuramente.
+
+---
+
+## 📂 Repositório
+https://github.com/breno-hbs/novva-frontend
+
+---
+
+## 👥 Integrantes do Grupo
+- Pedro Henrique do Santos — RM564188
+
+- Pedro Cunha Coutinho — RM562191
+
+- Breno Henrique Bortoloti Santos — RM562856
 
